@@ -173,4 +173,4 @@ Object.setPrototypeOf(LO, class {});
 
 EventEmitter.EventEmitter = EventEmitter;
 
-module.exports = EventEmitter;
+if (typeof module !== "undefined") module.exports = EventEmitter;
