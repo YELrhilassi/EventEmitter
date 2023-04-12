@@ -172,5 +172,3 @@ Object.setPrototypeOf(LO, class {});
 // when it is imported into another module.
 
 EventEmitter.EventEmitter = EventEmitter;
-
-if (typeof module !== "undefined") module.exports = EventEmitter;
