@@ -1,4 +1,4 @@
-export default class EventEmitter extends null {
+class EventEmitter extends null {
   constructor() {
     this._events = new Events();
     this._eventsCounts = 0;
@@ -172,3 +172,7 @@ Object.setPrototypeOf(LO, class {});
 // when it is imported into another module.
 
 EventEmitter.EventEmitter = EventEmitter;
+
+if (typeof module !== "undefined") {
+  module.exports = EventEmitter;
+}
