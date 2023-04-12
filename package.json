@@ -1,7 +1,7 @@
 {
-  "name": "eventemitter",
+  "name": "emittevent",
   "version": "1.0.0",
-  "description": "Enevt emitter similar to that of Node.js",
+  "description": "Event emitter similar to that of Node.js",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
