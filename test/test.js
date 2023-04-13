@@ -1,5 +1,6 @@
 // TO DO
-import EventEmitter from "emittevent";
+const EventEmitter = require("emittevent");
 
 const em = new EventEmitter();
+
 console.log(em);
