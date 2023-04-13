@@ -1,15 +1,14 @@
 {
   "name": "emittevent",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "Event emitter similar to that of Node.js",
   "exports": {
     ".": {
-      "import": "./index.mjs",
-      "require": "./index.mjs",
+      "import": "./index.js",
       "types": "./index.d.ts"
     }
   },
-  "main": "index.mjs",
+  "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
