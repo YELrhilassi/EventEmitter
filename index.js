@@ -1,5 +1,6 @@
 class EventEmitter extends null {
   constructor() {
+    super();
     this._events = new Events();
     this._eventsCounts = 0;
   }
