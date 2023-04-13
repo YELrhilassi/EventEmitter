@@ -17,7 +17,7 @@
     "addListener"
   ],
   "author": "Youssef El Rhilassi",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/YELrhilassi/EventEmitter/issues"
   },
