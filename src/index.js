@@ -1,4 +1,4 @@
-export default class EventEmitter extends null {
+class EventEmitter extends null {
   constructor() {
     super();
     this._events = new Events();
@@ -142,18 +142,18 @@ Object.setPrototypeOf(EventEmitter, class {}); // Removing prototype chain
 class Events extends null {
   constructor() {
     super();
-    [Symbol.iterator] = () => {
-      let i = 0;
-      const evnts = Object.values(this);
-      return {
-        next() {
-          if (i < evnts.length) {
-            return { value: evnts[i++], done: false };
-          } else {
-            return { done: true };
-          }
-        },
-      };
+  }
+  Symbol() {
+    let i = 0;
+    const evnts = Object.values(this);
+    return {
+      next() {
+        if (i < evnts.length) {
+          return { value: evnts[i++], done: false };
+        } else {
+          return { done: true };
+        }
+      },
     };
   }
 }
@@ -173,3 +173,5 @@ Object.setPrototypeOf(LO, class {});
 // when it is imported into another module.
 
 EventEmitter.EventEmitter = EventEmitter;
+
+module.exports = EventEmitter;
