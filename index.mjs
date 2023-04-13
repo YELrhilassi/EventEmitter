@@ -1,4 +1,4 @@
-export default class EventEmitter extends null {
+class EventEmitter extends null {
   constructor() {
     super();
     this._events = new Events();
@@ -173,3 +173,5 @@ Object.setPrototypeOf(LO, class {});
 // when it is imported into another module.
 
 EventEmitter.EventEmitter = EventEmitter;
+
+export default EventEmitter;

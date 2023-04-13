@@ -1,6 +1,6 @@
 {
   "name": "emittevent",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Event emitter similar to that of Node.js",
   "exports": {
     ".": {
