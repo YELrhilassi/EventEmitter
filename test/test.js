@@ -1,6 +1,9 @@
+import EventEmitter from "emittevent";
+
 // TO DO
-const EventEmitter = require("emittevent");
 
 const em = new EventEmitter();
+
+em.addListener("click", () => console.log("click event"));
 
 console.log(em);

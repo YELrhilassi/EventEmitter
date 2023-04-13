@@ -5,17 +5,17 @@
   "exports": {
     ".": {
       "import": "./index.mjs",
-      "require": "./index.js",
+      "require": "./index.mjs",
       "types": "./index.d.ts"
     }
   },
-  "main": "index.js",
+  "main": "index.mjs",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src --out-dir dist"
   },
   "repository": {
-    "type": "module",
     "url": "git+https://github.com/YELrhilassi/EventEmitter.git"
   },
   "keywords": [
