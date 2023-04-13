@@ -169,9 +169,4 @@ class LO extends null {
 }
 Object.setPrototypeOf(LO, class {});
 
-// Allows the EventEmitter function object to be used as a module namespace
-// when it is imported into another module.
-
-EventEmitter.EventEmitter = EventEmitter;
-
 export default EventEmitter;
